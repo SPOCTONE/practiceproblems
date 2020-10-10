@@ -1,11 +1,11 @@
 import math
- 
- 
+
+
 def compute_distance(x1, y1, x2, y2):
     distance = math.sqrt((x1-x2)**2 + (y1-y2)**2)
-    print("Distance: "+" {:.2f}".format(distance))
- 
- 
+    print("Distance: "+"{:.2f}".format(distance))
+
+
 if __name__ == '__main__':
     test_cases = int(input("Enter the no. of test cases you want: "))
     i = 0
@@ -18,4 +18,3 @@ if __name__ == '__main__':
         y2 = coordinates[3]
         i += 1
         compute_distance(x1, y1, x2, y2)
- 
